@@ -1,0 +1,21 @@
+<template>
+    <div class="slds-card">
+
+    <h4>Custom Property 1: {property1}</h4>
+    <h4>Custom Property 2: {property2}</h4>
+    
+        <template lwc:if={markers.length}>
+            <lightning-map
+                map-markers={markers}
+                zoom-level={zoomLevel}
+            ></lightning-map>
+        </template>
+        <template lwc:else>
+          
+            
+        </template>
+        <template if:true={error}>
+            <h4>Errors : {error}</h4>
+        </template>
+    </div>
+</template>

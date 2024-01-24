@@ -1,0 +1,130 @@
+<template>
+  <div class="slds-grid slds-gutters">
+    <div class="slds-col">
+      <span>1: {strLWC1}</span>
+      <c-Dynamic-Child record-id={recordId} strlwc={strLWC1}></c-Dynamic-Child>
+
+    </div>
+    <div class="slds-col">
+      <span>2: {strLWC2}</span>
+      <c-Dynamic-Child record-id={recordId} strlwc={strLWC2}></c-Dynamic-Child>
+
+    </div>
+    <div class="slds-col">
+      <span>3: {strLWC3}</span>
+      <c-Dynamic-Child record-id={recordId} strlwc={strLWC3}></c-Dynamic-Child>
+
+    </div>
+
+  </div>
+
+  <div class="slds-text-longform">
+    <h3
+    class="slds-section__title slds-theme_shade slds-var-m-top_small slds-var-m-bottom_x-small slds-var-p-horizontal_small">
+    Fixed content can go here. Everything below here cannot be swapped out </h3>
+   
+    <ol>
+      <li>The quick brown fox jumps over the lazy dog.</li>
+      <li>The quick brown fox jumps over the lazy dog.
+        <ol>
+          <li>The quick brown fox jumps over the lazy dog.</li>
+          <li>The quick brown fox jumps over the lazy dog.
+            <ol>
+              <li>The quick brown fox jumps over the lazy dog.</li>
+              <li>The quick brown fox jumps over the lazy dog.</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </div>
+
+  <h2 id="element-with-table-label" class="slds-text-heading_medium slds-m-bottom_xx-small">Example data table of
+    Opportunities</h2>
+
+  <table class="slds-table slds-table_cell-buffer slds-table_bordered"
+    aria-labelledby="element-with-table-label other-element-with-table-label">
+    <thead>
+      <tr class="slds-line-height_reset">
+        <th class="" scope="col">
+          <div class="slds-truncate" title="Opportunity Name">Opportunity Name</div>
+        </th>
+        <th class="" scope="col">
+          <div class="slds-truncate" title="Account Name">Account Name</div>
+        </th>
+        <th class="" scope="col">
+          <div class="slds-truncate" title="Close Date">Close Date</div>
+        </th>
+        <th class="" scope="col">
+          <div class="slds-truncate" title="Stage">Stage</div>
+        </th>
+        <th class="" scope="col">
+          <div class="slds-truncate" title="Confidence">Confidence</div>
+        </th>
+        <th class="" scope="col">
+          <div class="slds-truncate" title="Amount">Amount</div>
+        </th>
+        <th class="" scope="col">
+          <div class="slds-truncate" title="Contact">Contact</div>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="slds-hint-parent">
+        <th data-label="Opportunity Name" scope="row">
+          <div class="slds-truncate" title="Dog">
+            <a href="#" tabindex="-1">Dog</a>
+          </div>
+        </th>
+        <td data-label="Account Name">
+          <div class="slds-truncate" title="Dog">Dog</div>
+        </td>
+        <td data-label="Close Date">
+          <div class="slds-truncate" title="4/14/2015">4/14/2015</div>
+        </td>
+        <td data-label="Prospecting">
+          <div class="slds-truncate" title="Prospecting">Prospecting</div>
+        </td>
+        <td data-label="Confidence">
+          <div class="slds-truncate" title="20%">20%</div>
+        </td>
+        <td data-label="Amount">
+          <div class="slds-truncate" title="$25k">$25k</div>
+        </td>
+        <td data-label="Contact">
+          <div class="slds-truncate" title="jrogers@Dog.com">
+            <a href="#" tabindex="-1">jrogers@Dog.com</a>
+          </div>
+        </td>
+      </tr>
+      <tr class="slds-hint-parent">
+        <th data-label="Opportunity Name" scope="row">
+          <div class="slds-truncate" title="Dog + Anypoint Connectors">
+            <a href="#" tabindex="-1">Dog + Anypoint Connectors</a>
+          </div>
+        </th>
+        <td data-label="Account Name">
+          <div class="slds-truncate" title="Dog">Dog</div>
+        </td>
+        <td data-label="Close Date">
+          <div class="slds-truncate" title="4/14/2015">4/14/2015</div>
+        </td>
+        <td data-label="Prospecting">
+          <div class="slds-truncate" title="Prospecting">Prospecting</div>
+        </td>
+        <td data-label="Confidence">
+          <div class="slds-truncate" title="20%">20%</div>
+        </td>
+        <td data-label="Amount">
+          <div class="slds-truncate" title="$25k">$25k</div>
+        </td>
+        <td data-label="Contact">
+          <div class="slds-truncate" title="jrogers@Dog.com">
+            <a href="#" tabindex="-1">jrogers@Dog.com</a>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</template>

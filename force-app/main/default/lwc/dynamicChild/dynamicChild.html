@@ -1,0 +1,13 @@
+<template>
+
+    <h3
+        class="slds-section__title slds-theme_shade slds-var-m-top_small slds-var-m-bottom_x-small slds-var-p-horizontal_small">
+        Dynamic Component </h3>
+    <h3
+        class="slds-section__title slds-theme_shade slds-var-m-top_small slds-var-m-bottom_x-small slds-var-p-horizontal_small">
+        {strlwc}
+    </h3>
+
+    <lwc:component record-id={recordId} lwc:is={componentConstructor} lwc:spread={childProps}> </lwc:component>
+
+</template>

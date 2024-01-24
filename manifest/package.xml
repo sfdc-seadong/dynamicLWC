@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>CustomTemplate</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>PropertySettingsController</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Custom_LWC_Setting__mdt.Component_Name__c</members>
+        <members>Custom_LWC_Setting__mdt.Property_Name__c</members>
+        <members>Custom_LWC_Setting__mdt.Property_Value__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Custom_LWC_Setting__mdt</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>accountMap</members>
+        <members>cat</members>
+        <members>createCase</members>
+        <members>customContainer</members>
+        <members>dog</members>
+        <members>dynamicChild</members>
+        <members>genericAnimal</members>
+        <members>piglet</members>
+        <members>genericPlaceholder</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <version>60.0</version>
+</Package>

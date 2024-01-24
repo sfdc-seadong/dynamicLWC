@@ -1,0 +1,22 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "Dynamic LWC Containers",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": ""
+    }
+  ],
+  "name": "dynamicLWC",
+  "namespace": "dynamicLwc2024",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "58.0",
+  "packageAliases": {
+    "Dynamic LWC Containers": "0HoHo00000000FJKAY",
+    "Dynamic LWC Containers@0.1.0-1": "04tHo0000007SG4IAM",
+    "Dynamic LWC Containers@0.1.0-2": "04tHo0000007SG9IAM",
+    "Dynamic LWC Containers@0.1.0-3": "04tHo0000007Uk8IAE"
+  }
+}
